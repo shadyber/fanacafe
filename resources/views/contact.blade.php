@@ -5,7 +5,7 @@
         <div class="container">
             <div class="wrap-content">
                 <div class="content">
-                    <img src="images/about.jpg" alt="">
+                    <img src="/images/about.jpg" alt="">
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum cum, minus laborum? Obcaecati laboriosam dolore excepturi at magnam quia optio nostrum voluptatibus quisquam explicabo necessitatibus omnis sequi, accusamus quidem eos excepturi!</p>
                 </div>
             </div>
