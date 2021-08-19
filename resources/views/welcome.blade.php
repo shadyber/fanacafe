@@ -36,7 +36,7 @@
             </div>
             <div class="col s6">
                 <div class="content-center">
-                    <a href="index.html"><h1>FanaCafe</h1></a>
+                    <a href="/"><h1>FanaCafe</h1></a>
                 </div>
             </div>
             <div class="col s3">
@@ -57,68 +57,7 @@
     </div>
 </div>
 <!-- end navbar -->
-
-<!-- sidebar left -->
-<div class="sidebar-panel">
-    <ul id="slide-out" class="collapsible side-nav">
-        <li class="list-top">
-            <div class="user-view">
-                <div class="image">
-                    <img src="images/logo.png" alt="">
-                </div>
-                <h3>FanaCafe</h3>
-                <span>Mobile Template</span>
-            </div>
-        </li>
-        <li><a href="index.html">Home</a></li>
-        <li>
-            <div class="collapsible-header">
-                FanaCafe Page<span><i class="fas fa-angle-right right"></i></span>
-            </div>
-            <div class="collapsible-body">
-                <ul>
-                    <li><a href="product.html">Product</a></li>
-                    <li><a href="product-details.html">Product Details</a></li>
-                    <li><a href="cart.html">Cart</a></li>
-                    <li><a href="checkout.html">Checkout</a></li>
-                    <li><a href="reservation.html">Reservation</a></li>
-                    <li><a href="gallery.html">Gallery</a></li>
-                </ul>
-            </div>
-        </li>
-        <li>
-            <div class="collapsible-header">
-                Pages<span><i class="fas fa-angle-right right"></i></span>
-            </div>
-            <div class="collapsible-body">
-                <ul>
-                    <li><a href="about.html">About</a></li>
-                    <li><a href="calendar.html">Calendar</a></li>
-                    <li><a href="pricing-table.html">Pricing Table</a></li>
-                    <li><a href="page-not-found.html">Page Not Found</a></li>
-                    <li><a href="coming-soon.html">Coming soon</a></li>
-                    <li><a href="testimonial.html">Testimonial</a></li>
-                </ul>
-            </div>
-        </li>
-        <li>
-            <div class="collapsible-header">
-                Blog<span><i class="fas fa-angle-right right"></i></span>
-            </div>
-            <div class="collapsible-body">
-                <ul>
-                    <li><a href="blog.html">Blog</a></li>
-                    <li><a href="blog-single.html">Blog Single</a></li>
-                </ul>
-            </div>
-        </li>
-        <li><a href="contact.html">Contact us</a></li>
-        <li><a href="login.html">Login</a></li>
-        <li><a href="register.html">Register</a></li>
-        <li><a href="index.html">Log Out</a></li>
-    </ul>
-</div>
-<!-- end sidebar left -->
+ @include('layouts.components.left_sidebar')
 
 <!-- sidebar search -->
 <div class="sidebar-panel sidebar-search">
