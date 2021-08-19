@@ -17,8 +17,13 @@ Route::get('/', function () {
     $items=\App\Models\Item::all();
     return view('welcome')->with(['items'=>$items]);
 });
+
 Route::get('/about', function () {
     return view('about');
+});
+
+Route::get('/contact', function () {
+    return view('contact');
 });
 
 Auth::routes();
