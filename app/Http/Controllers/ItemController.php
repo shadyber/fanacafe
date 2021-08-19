@@ -49,6 +49,7 @@ return view('item.index')->with(['items'=>$items]);
     public function show(Item $item)
     {
         //
+        return view('item.show')->with(['item'=>$item]);
     }
 
     /**

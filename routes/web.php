@@ -14,7 +14,8 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    $items=\App\Models\Item::all();
+    return view('welcome')->with(['items'=>$items]);
 });
 Route::get('/about', function () {
     return view('about');
